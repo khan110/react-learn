@@ -42,4 +42,4 @@ jobs:
 
     # Deploy Surge
     - name: Run Surge
-      run: surge ./ react-learn.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+      run: surge ./ react-learn110.surge.sh --token ${{ secrets.SURGE_TOKEN }}
