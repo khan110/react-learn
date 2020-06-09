@@ -42,4 +42,4 @@ jobs:
 
     # Deploy Surge
     - name: Run Surge
-      run: surge ./build-umair.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+      run: surge ./react-learn-umair.surge.sh --token ${{ secrets.SURGE_TOKEN }}
